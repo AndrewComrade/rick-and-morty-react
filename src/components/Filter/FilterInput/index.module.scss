@@ -1,0 +1,20 @@
+.FilterInput_Wrapper {
+
+}
+
+.FilterInput_Label {
+
+}
+
+.FilterInput {
+  padding: .5rem .5rem;
+  width: 100%;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: 0;
+  color: #808080;
+  &:focus {
+    border: 1px solid #2684ff;
+  }
+}

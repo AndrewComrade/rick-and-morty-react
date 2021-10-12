@@ -1,0 +1,68 @@
+.Modal_Wrapper {
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.Modal_Body {
+  position: relative;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.Modal_Title {
+  margin: 0 0 1rem;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.Modal_ImageWrapper {
+
+}
+
+.Modal_Image {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 2rem;
+}
+
+.Modal_InfoList {
+
+}
+
+.Modal_InfoList_Item {
+
+}
+
+.Modal_CloseBtn {
+  position: absolute;
+  right: .5rem;
+  top: 1.3rem;
+  opacity: 0.3;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    opacity: 1;
+  }
+
+  &:after {
+    display: inline-block;
+    content: "\00d7";
+    font-size: 2rem;
+    line-height: 1;
+  }
+}
+
